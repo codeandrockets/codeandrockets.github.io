@@ -1,0 +1,20 @@
+body {
+	background: #e67e22;
+}
+
+.mainbox {
+	width: 50%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding: 2%;
+  border: 1px solid #fff;
+}
+
+.mainbox p {
+	width: 90%;
+	margin: 0 auto;
+}
