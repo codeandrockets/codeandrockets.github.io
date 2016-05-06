@@ -17,37 +17,9 @@ html,body {
 	margin:0;
 	padding:0;
 }
-table {
-	border-collapse:collapse;
-	border-spacing:0;
-}
-fieldset,img { 
-	border:0;
-}
-input{
-	border:1px solid #b0b0b0;
-	padding:3px 5px 4px;
-	color:#979797;
-	width:190px;
-}
-address,caption,cite,code,dfn,th,var {
-	font-style:normal;
-	font-weight:normal;
-}
+
 ol,ul {
 	list-style:none;
-}
-caption,th {
-	text-align:left;
-}
-h1,h2,h3,h4,h5,h6 {
-	font-size:100%;
-	font-weight:normal;
-}
-q:before,q:after {
-	content:'';
-}
-abbr,acronym { border:0;
 }
 
 body{
@@ -67,11 +39,7 @@ a{
 	text-decoration: none;
 }
 
-.clr{
-	clear: both;
-}
-
-.cb-slideshow,
+/*.cb-slideshow,
 .cb-slideshow:after {
     position: fixed;
     width: 100%;
@@ -79,7 +47,7 @@ a{
     top: 0px;
     left: 0px;
     z-index: 0;
-}
+}*/
 
 .cb-slideshow li span {
     width: 100%;
@@ -107,10 +75,10 @@ a{
     width: 100%;
     text-align: center;
     opacity: 0;
-    -webkit-animation: titleAnimation 36s linear infinite 0s;
+/*    -webkit-animation: titleAnimation 36s linear infinite 0s;
     -moz-animation: titleAnimation 36s linear infinite 0s;
     -o-animation: titleAnimation 36s linear infinite 0s;
-    -ms-animation: titleAnimation 36s linear infinite 0s;
+    -ms-animation: titleAnimation 36s linear infinite 0s;*/
     animation: titleAnimation 36s linear infinite 0s;
 }
 .cb-slideshow li div h3 {
@@ -430,5 +398,5 @@ a{
 /*************   Nav Bar Styles  *****************/
 
 .site-name {
-	font-size: 48px;
+	size: 48px;
 }
